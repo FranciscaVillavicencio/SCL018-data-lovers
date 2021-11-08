@@ -1,0 +1,244 @@
+@font-face {
+    font-family: "fuente pixel";
+    src: url(fuente/PIXELADE.TTF);
+  }
+  
+  * {
+    font-family: "fuente pixel";
+    font-size: 36px;
+    text-transform: capitalize;
+    color:#353535
+  
+  }
+  
+  
+  
+  body {
+    background-image: url("recursos/fondo verde.png");
+    margin: 1cm;
+    background-attachment: fixed;
+    background-size: 100%;
+  
+  
+  }
+  
+  .encabezado{
+   display: flex;
+   flex-direction: row;
+   justify-content: right;
+   background-color: #7BA394;
+   background-size: cover;
+   margin-top: -3cm;
+   margin-left: -3cm;
+   margin-right: -3cm;
+   margin-bottom: 0cm;
+  
+  }
+  
+  .pokemongris{
+   width: 10cm;
+   height: 3cm;
+   padding-top: 3cm;
+   padding-bottom: 1cm;
+   padding-right: 4cm;
+   
+  
+  }
+  
+  
+  nav {
+  
+    display: flex;
+    flex-direction: row;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color:rgb(123, 163, 148,80%);
+    margin-left: -3cm;
+    margin-right: -3cm;
+    justify-content: space-between;
+   justify-content: space-around;
+   justify-content: space-evenly;
+    
+  
+  }
+  
+  .boton1{
+  
+  padding-left: 3cm;
+  padding-top: 1cm;
+  padding-bottom: 1cm;
+  
+  }
+  
+  .filtro{
+  margin-top: 1cm;
+  
+  
+  }
+  
+  
+  
+  .contenedorpadre{
+  display: flex;
+  flex-direction: row;
+  size: 100%;
+  flex-wrap: wrap;
+  margin: 1cm;
+  justify-content: space-between;
+  justify-content: space-around;
+  justify-content: space-evenly;
+  padding: 10px;
+  
+  
+  }
+  
+  
+  .card{
+  display: flex;
+  position: relative; 
+  transition: 0.3s;
+  transform: rotateY(0deg);
+  transform-style: preserve-3d;
+  -wekit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  
+  }
+  
+  
+  
+  .front{
+    justify-content: center;
+    background-color: rgba(123, 163, 148, 80%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 7cm;
+    height: 8cm;
+    margin: 0.5cm;
+    
+  
+  }
+  
+  .back{
+    
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(62, 119, 114, 0.8);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 7cm;
+    height: 8cm;
+    margin: 0.5cm;
+    transform: rotateY(180deg);
+    -wekit-backface-visibility: hidden;
+    backface-visibility: hidden;
+   
+  
+  }
+  
+  
+  .visible{
+    transform: rotateY(-180deg);
+    
+  }
+  
+  
+  .nombre{
+    display: flex;
+    justify-content: center;
+    margin: 0px ;
+  
+  }
+  
+  .numero {
+   display: flex;
+   justify-content: center;
+   margin: 0cm;
+   padding-top: -3cm;
+  
+  }
+  
+  .foto{
+  display: flex; 
+  padding-left: 1.5cm;
+  width: 60%;
+  height: 60%;
+  
+  }
+  
+  .tipo{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin: 0px;
+  }
+  
+  
+  
+  .back {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    padding: 10px;
+    
+   }
+   
+   .resistencia>h1 {
+    
+     flex-direction: row;
+     text-align: center;
+     color:whitesmoke;
+     font-size: 40px;
+     padding-bottom: 0px;
+     margin: 0px;
+     
+     
+     }
+   
+     
+   .resistencia{
+    justify-content:center;
+    align-items:center;
+    word-break: break-all;
+    font-size: 35px;
+    padding-top: 0px;
+    margin: 10px;
+    
+   }
+  
+     .debilidad>h1 {
+      flex-direction: row;
+      text-align: center;
+      color:whitesmoke;
+      font-size: 45px;
+      padding-bottom: 0px; 
+      font-size: 35px;
+      margin:0px;
+      
+    
+      }
+    
+      
+    .debilidad{
+     justify-content:center;
+     align-items:center;
+     margin:0px;
+     padding-top: 0px;   
+     padding-bottom: 30px;
+     
+  
+     
+      }
+  
+  
+  
+  footer{
+  
+  padding-top: 2cm;
+  padding-bottom: 2cm;
+  
+  }
